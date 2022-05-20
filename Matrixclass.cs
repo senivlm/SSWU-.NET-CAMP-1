@@ -78,7 +78,7 @@ namespace Matrixclass
             }
         }
 
-        public void Circle_Snake() //спіральна матриця
+        public void Circle_Snake() //спіральна матриця.
         {
             int n = matrix.GetLength(0);
             int m = matrix.GetLength(1);
