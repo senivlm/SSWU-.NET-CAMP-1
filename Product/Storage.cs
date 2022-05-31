@@ -3,9 +3,9 @@
 namespace ProductClasses
 {
     class Storage
-    {
+    {// products. Ідентифікатори полів з малої літери
         List<Product> Products = new List<Product>();
-
+// методи діалогу не в цьому класі. достатньо мати тут тільки метод, який додає товар.
         public static Product newProduct()
         {
             Console.Write("Name of Product: ");
@@ -58,12 +58,13 @@ namespace ProductClasses
         }
 
         public void printAllProducts()
-        {
+        {// метод і не друкує і не формує стрічку
             foreach (Product prod in Products)
             {
                 prod.ToString();
             }
         }
+        бажано його зробити віртуальним. для мобільності класу.
         public void changePrices(double percentage)
         {
             foreach (Product prod in Products)
