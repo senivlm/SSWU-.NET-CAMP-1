@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Vector
-{
+{//Ваш номер 21 
     class Vector
     {
         int[] arr;
