@@ -7,7 +7,8 @@ using System.Threading.Tasks;
 namespace Vector
 {
     class Vector
-    {
+    {// Немає сортувань!!! 
+        //Зробіть реорганізацію.
         int[] arr;
 
         public int this[int index]
